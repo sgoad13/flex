@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103B8C419DF905899F680BCD /* Pods_Find_Your_FlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */; };
+		578E60AA7CD2184CBDE38498 /* Pods_Find_Your_Flex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20524AA5CA5F70890C0D629F /* Pods_Find_Your_Flex.framework */; };
+		76F2272D2218CC20000A9172 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F2272C2218CC20000A9172 /* GoogleService-Info.plist */; };
 		FBB008372218727400219F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB008362218727400219F4B /* AppDelegate.swift */; };
 		FBB008392218727400219F4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB008382218727400219F4B /* FirstViewController.swift */; };
 		FBB0083B2218727400219F4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0083A2218727400219F4B /* SecondViewController.swift */; };
@@ -15,6 +18,7 @@
 		FBB008432218727600219F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB008412218727600219F4B /* LaunchScreen.storyboard */; };
 		FBB0084E2218727600219F4B /* Find_Your_FlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0084D2218727600219F4B /* Find_Your_FlexTests.swift */; };
 		FBB008592218727600219F4B /* Find_Your_FlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB008582218727600219F4B /* Find_Your_FlexUITests.swift */; };
+		FBBAB84AAEC112F19780E9E0 /* Pods_Find_Your_FlexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E432AB9F78A606A84938F044 /* Pods_Find_Your_FlexUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20524AA5CA5F70890C0D629F /* Pods_Find_Your_Flex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Your_Flex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5378C1C5A910F78847FD7719 /* Pods-Find Your FlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexTests.release.xcconfig"; path = "Target Support Files/Pods-Find Your FlexTests/Pods-Find Your FlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2489365CD21A168B7189ED /* Pods-Find Your FlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexTests.debug.xcconfig"; path = "Target Support Files/Pods-Find Your FlexTests/Pods-Find Your FlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		732026D31B90145D0EC3E439 /* Pods-Find Your FlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.release.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76F2272C2218CC20000A9172 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C69AA860404640EB20AE3A8 /* Pods-Find Your FlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.debug.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Your_FlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your Flex.release.xcconfig"; path = "Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex.release.xcconfig"; sourceTree = "<group>"; };
+		D5697C02239E7CF74281A8EE /* Pods-Find Your Flex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your Flex.debug.xcconfig"; path = "Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex.debug.xcconfig"; sourceTree = "<group>"; };
+		E432AB9F78A606A84938F044 /* Pods_Find_Your_FlexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Your_FlexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB008332218727400219F4B /* Find Your Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Your Flex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB008362218727400219F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB008382218727400219F4B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E60AA7CD2184CBDE38498 /* Pods_Find_Your_Flex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103B8C419DF905899F680BCD /* Pods_Find_Your_FlexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBAB84AAEC112F19780E9E0 /* Pods_Find_Your_FlexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8568BE525DF021876F661E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5697C02239E7CF74281A8EE /* Pods-Find Your Flex.debug.xcconfig */,
+				BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */,
+				6F2489365CD21A168B7189ED /* Pods-Find Your FlexTests.debug.xcconfig */,
+				5378C1C5A910F78847FD7719 /* Pods-Find Your FlexTests.release.xcconfig */,
+				9C69AA860404640EB20AE3A8 /* Pods-Find Your FlexUITests.debug.xcconfig */,
+				732026D31B90145D0EC3E439 /* Pods-Find Your FlexUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEF8A35653DEE69688C38B2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20524AA5CA5F70890C0D629F /* Pods_Find_Your_Flex.framework */,
+				9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */,
+				E432AB9F78A606A84938F044 /* Pods_Find_Your_FlexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBB0082A2218727400219F4B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				FBB0084C2218727600219F4B /* Find Your FlexTests */,
 				FBB008572218727600219F4B /* Find Your FlexUITests */,
 				FBB008342218727400219F4B /* Products */,
+				A8568BE525DF021876F661E9 /* Pods */,
+				EEF8A35653DEE69688C38B2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				FBB0083F2218727600219F4B /* Assets.xcassets */,
 				FBB008412218727600219F4B /* LaunchScreen.storyboard */,
 				FBB008442218727600219F4B /* Info.plist */,
+				76F2272C2218CC20000A9172 /* GoogleService-Info.plist */,
 			);
 			path = "Find Your Flex";
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB0085D2218727600219F4B /* Build configuration list for PBXNativeTarget "Find Your Flex" */;
 			buildPhases = (
+				9FCD13FE9ED55AE23A5689CA /* [CP] Check Pods Manifest.lock */,
 				FBB0082F2218727400219F4B /* Sources */,
 				FBB008302218727400219F4B /* Frameworks */,
 				FBB008312218727400219F4B /* Resources */,
+				6DEA678709C9D5E70FC63607 /* [CP] Embed Pods Frameworks */,
+				A37910256E3F650B825D0C97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB008602218727600219F4B /* Build configuration list for PBXNativeTarget "Find Your FlexTests" */;
 			buildPhases = (
+				4B1AAACEADCAC0A4F18FD1B4 /* [CP] Check Pods Manifest.lock */,
 				FBB008452218727600219F4B /* Sources */,
 				FBB008462218727600219F4B /* Frameworks */,
 				FBB008472218727600219F4B /* Resources */,
@@ -170,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB008632218727600219F4B /* Build configuration list for PBXNativeTarget "Find Your FlexUITests" */;
 			buildPhases = (
+				A387099FD4EFAEDE545DAB23 /* [CP] Check Pods Manifest.lock */,
 				FBB008502218727600219F4B /* Sources */,
 				FBB008512218727600219F4B /* Frameworks */,
 				FBB008522218727600219F4B /* Resources */,
@@ -233,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB008432218727600219F4B /* LaunchScreen.storyboard in Resources */,
+				76F2272D2218CC20000A9172 /* GoogleService-Info.plist in Resources */,
 				FBB008402218727600219F4B /* Assets.xcassets in Resources */,
 				FBB0083E2218727400219F4B /* Main.storyboard in Resources */,
 			);
@@ -253,6 +302,121 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B1AAACEADCAC0A4F18FD1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find Your FlexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEA678709C9D5E70FC63607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCD13FE9ED55AE23A5689CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find Your Flex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37910256E3F650B825D0C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A387099FD4EFAEDE545DAB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find Your FlexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBB0082F2218727400219F4B /* Sources */ = {
@@ -434,6 +598,7 @@
 		};
 		FBB0085E2218727600219F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5697C02239E7CF74281A8EE /* Pods-Find Your Flex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +617,7 @@
 		};
 		FBB0085F2218727600219F4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +636,7 @@
 		};
 		FBB008612218727600219F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2489365CD21A168B7189ED /* Pods-Find Your FlexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +657,7 @@
 		};
 		FBB008622218727600219F4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5378C1C5A910F78847FD7719 /* Pods-Find Your FlexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +678,7 @@
 		};
 		FBB008642218727600219F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C69AA860404640EB20AE3A8 /* Pods-Find Your FlexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +698,7 @@
 		};
 		FBB008652218727600219F4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732026D31B90145D0EC3E439 /* Pods-Find Your FlexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
