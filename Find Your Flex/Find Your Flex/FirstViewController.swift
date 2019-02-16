@@ -15,6 +15,10 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        self.performSegue(withIdentifier: "loginView", sender: self);
+        // presents user w login view so they can provide email and login
+    }
 
 }
 
