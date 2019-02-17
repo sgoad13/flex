@@ -179,6 +179,25 @@
                                 <rect key="frame" x="147" y="72" width="99" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Piy-PI-bqd">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.6011309027671814" green="0.87368148565292358" blue="0.91592103242874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Find Flexes" width="95" id="zFQ-JS-5lB">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" width="85" id="epu-gw-u6E">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Flexes" width="113" id="ct8-5t-GqP">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Profile" id="5sd-iX-xmC">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="gTj-vY-rVB"/>
@@ -459,6 +478,34 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ife-J6-0iS">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.6011309027671814" green="0.87368148565292358" blue="0.91592103242874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Find Flexes" width="95" id="Fbp-7u-RJ2">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8rJ-Kc-sve" kind="presentation" id="kJG-Dv-3Dp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" width="85" id="G6E-6U-rfL">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Flexes" width="113" id="sLT-9j-I7g">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="4Rf-F1-sv1" kind="presentation" id="Ua1-0q-NO1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Profile" id="wqz-2k-fOu">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="0mF-lv-z1n" kind="presentation" id="4xQ-PE-eIx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
@@ -752,6 +799,34 @@
                                 <color key="textColor" red="0.6011309027671814" green="0.87368148565292358" blue="0.91592103242874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SDE-ep-l40">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.6011309027671814" green="0.87368148565292358" blue="0.91592103242874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Find Flexes" width="95" id="yGl-Pp-Ox2">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8rJ-Kc-sve" kind="presentation" id="cLi-JD-KDo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" width="85" id="ZEn-0c-FT6">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Flexes" width="113" id="8Ig-nL-OeI">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="4Rf-F1-sv1" kind="presentation" id="PQJ-6K-WoT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Profile" id="R6G-zP-GMm">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="0mF-lv-z1n" kind="presentation" id="ueA-nq-noi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="uM3-tq-8Bx"/>
@@ -862,12 +937,40 @@
                                 <rect key="frame" x="15" y="34" width="99" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FRR-zR-N3K">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <color key="backgroundColor" red="0.6011309027671814" green="0.87368148565292358" blue="0.91592103242874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Find Flexes" width="95" id="WuQ-0E-qYh">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8rJ-Kc-sve" kind="presentation" id="4Wj-hu-6Tc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" width="85" id="NRi-wG-KAr">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Flexes" width="113" id="77y-a3-PQM">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="4Rf-F1-sv1" kind="presentation" id="1Fd-gv-fuF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="My Profile" id="xsg-Gp-Ckj">
+                                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="0mF-lv-z1n" kind="presentation" id="c7F-YG-4SP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="IPc-Hh-dRm" secondAttribute="centerX" id="1Nq-Nh-Hk4"/>
                             <constraint firstAttribute="centerY" secondItem="IPc-Hh-dRm" secondAttribute="centerY" id="DJ2-vP-2Mh"/>
                             <constraint firstItem="sXt-1k-7K5" firstAttribute="centerX" secondItem="IPc-Hh-dRm" secondAttribute="centerX" id="KM6-Dc-i6f"/>
+                            <constraint firstItem="FRR-zR-N3K" firstAttribute="centerX" secondItem="KAc-tK-ABA" secondAttribute="centerX" id="gOF-vo-6N5"/>
                             <constraint firstItem="sXt-1k-7K5" firstAttribute="top" secondItem="IPc-Hh-dRm" secondAttribute="bottom" constant="8" symbolic="YES" id="rzz-7a-PjC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CTq-hD-bUn"/>
@@ -884,6 +987,8 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VtD-m7-40B"/>
+        <segue reference="4xQ-PE-eIx"/>
+        <segue reference="Ua1-0q-NO1"/>
+        <segue reference="4Wj-hu-6Tc"/>
     </inferredMetricsTieBreakers>
 </document>
