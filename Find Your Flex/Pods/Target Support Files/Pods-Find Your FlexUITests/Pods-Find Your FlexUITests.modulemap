@@ -1,0 +1,6 @@
+framework module Pods_Find_Your_FlexUITests {
+  umbrella header "Pods-Find Your FlexUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

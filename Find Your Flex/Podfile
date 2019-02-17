@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Find Your Flex' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Find Your Flex
+  pod 'Google/SignIn'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+
+  target 'Find Your FlexTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Find Your FlexUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
