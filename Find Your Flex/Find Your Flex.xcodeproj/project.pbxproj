@@ -46,6 +46,7 @@
 		732026D31B90145D0EC3E439 /* Pods-Find Your FlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.release.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.release.xcconfig"; sourceTree = "<group>"; };
 		76F2272C2218CC20000A9172 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76F2272E2218F3E0000A9172 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		76F227322218FB77000A9172 /* Find Your Flex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Find Your Flex-Bridging-Header.h"; sourceTree = "<group>"; };
 		9C69AA860404640EB20AE3A8 /* Pods-Find Your FlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.debug.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Your_FlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your Flex.release.xcconfig"; path = "Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 				FBB008412218727600219F4B /* LaunchScreen.storyboard */,
 				FBB008442218727600219F4B /* Info.plist */,
 				76F2272C2218CC20000A9172 /* GoogleService-Info.plist */,
+				76F227322218FB77000A9172 /* Find Your Flex-Bridging-Header.h */,
 			);
 			path = "Find Your Flex";
 			sourceTree = "<group>";
@@ -247,6 +249,7 @@
 				TargetAttributes = {
 					FBB008322218727400219F4B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					FBB008482218727600219F4B = {
 						CreatedOnToolsVersion = 10.1;
@@ -605,6 +608,7 @@
 			baseConfigurationReference = D5697C02239E7CF74281A8EE /* Pods-Find Your Flex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Find Your Flex/Info.plist";
@@ -614,6 +618,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shannongoad.Find-Your-Flex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Find Your Flex/Find Your Flex-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -624,6 +630,7 @@
 			baseConfigurationReference = BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Find Your Flex/Info.plist";
@@ -633,6 +640,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shannongoad.Find-Your-Flex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Find Your Flex/Find Your Flex-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
