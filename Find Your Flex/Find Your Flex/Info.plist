@@ -34,6 +34,14 @@
 				<string>com.googleusercontent.apps.309140213637-5hsv25vq0o4vnu8d0hisnk958bva0bvg</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>find-your-flex.firebaseapp.com</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

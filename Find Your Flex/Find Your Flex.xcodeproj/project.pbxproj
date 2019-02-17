@@ -10,7 +10,7 @@
 		103B8C419DF905899F680BCD /* Pods_Find_Your_FlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */; };
 		578E60AA7CD2184CBDE38498 /* Pods_Find_Your_Flex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20524AA5CA5F70890C0D629F /* Pods_Find_Your_Flex.framework */; };
 		76F2272D2218CC20000A9172 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F2272C2218CC20000A9172 /* GoogleService-Info.plist */; };
-		76F2272F2218F3E0000A9172 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2272E2218F3E0000A9172 /* RootViewController.swift */; };
+		76F2273722191FE6000A9172 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2273622191FE6000A9172 /* MainViewController.swift */; };
 		FBB008372218727400219F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB008362218727400219F4B /* AppDelegate.swift */; };
 		FBB008392218727400219F4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB008382218727400219F4B /* FirstViewController.swift */; };
 		FBB0083B2218727400219F4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0083A2218727400219F4B /* SecondViewController.swift */; };
@@ -45,8 +45,8 @@
 		6F2489365CD21A168B7189ED /* Pods-Find Your FlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexTests.debug.xcconfig"; path = "Target Support Files/Pods-Find Your FlexTests/Pods-Find Your FlexTests.debug.xcconfig"; sourceTree = "<group>"; };
 		732026D31B90145D0EC3E439 /* Pods-Find Your FlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.release.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.release.xcconfig"; sourceTree = "<group>"; };
 		76F2272C2218CC20000A9172 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		76F2272E2218F3E0000A9172 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		76F227322218FB77000A9172 /* Find Your Flex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Find Your Flex-Bridging-Header.h"; sourceTree = "<group>"; };
+		76F2273622191FE6000A9172 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9C69AA860404640EB20AE3A8 /* Pods-Find Your FlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your FlexUITests.debug.xcconfig"; path = "Target Support Files/Pods-Find Your FlexUITests/Pods-Find Your FlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D6B0FC9989AA1132DF44633 /* Pods_Find_Your_FlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Your_FlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA647A6F031ABF4EFD51CA4 /* Pods-Find Your Flex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Your Flex.release.xcconfig"; path = "Target Support Files/Pods-Find Your Flex/Pods-Find Your Flex.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				FBB008362218727400219F4B /* AppDelegate.swift */,
-				76F2272E2218F3E0000A9172 /* RootViewController.swift */,
 				FBB008382218727400219F4B /* FirstViewController.swift */,
 				FBB0083A2218727400219F4B /* SecondViewController.swift */,
+				76F2273622191FE6000A9172 /* MainViewController.swift */,
 				FBB0083C2218727400219F4B /* Main.storyboard */,
 				FBB0083F2218727600219F4B /* Assets.xcassets */,
 				FBB008412218727600219F4B /* LaunchScreen.storyboard */,
@@ -433,8 +433,8 @@
 			files = (
 				FBB0083B2218727400219F4B /* SecondViewController.swift in Sources */,
 				FBB008372218727400219F4B /* AppDelegate.swift in Sources */,
-				76F2272F2218F3E0000A9172 /* RootViewController.swift in Sources */,
 				FBB008392218727400219F4B /* FirstViewController.swift in Sources */,
+				76F2273722191FE6000A9172 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
