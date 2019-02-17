@@ -9,6 +9,7 @@ target 'Find Your Flex' do
   pod 'Google/SignIn'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   target 'Find Your FlexTests' do
     inherit! :search_paths
