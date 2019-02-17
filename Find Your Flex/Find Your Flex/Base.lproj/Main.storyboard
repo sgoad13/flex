@@ -847,12 +847,30 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7n3-4O-QNu" customClass="GIDSignInButton">
                                 <rect key="frame" x="35" y="313" width="305" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azb-YN-cxJ">
+                                        <rect key="frame" x="-15" y="-16" width="334" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="0mF-lv-z1n" kind="presentation" id="l5y-3w-G6c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES"/>
+                                </accessibility>
+                                <connections>
+                                    <action selector="goForward" destination="mtK-Dq-Pmz" eventType="valueChanged" id="5xD-YJ-Mrs"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AIM-sr-P8A"/>
                     </view>
+                    <connections>
+                        <segue destination="0mF-lv-z1n" kind="presentation" id="ytC-Mn-KV6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtK-Dq-Pmz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -987,8 +1005,8 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4xQ-PE-eIx"/>
+        <segue reference="ytC-Mn-KV6"/>
         <segue reference="Ua1-0q-NO1"/>
-        <segue reference="4Wj-hu-6Tc"/>
+        <segue reference="cLi-JD-KDo"/>
     </inferredMetricsTieBreakers>
 </document>
